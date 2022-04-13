@@ -23,7 +23,7 @@ it ("invalid user can`t login",()=>{
     cy.get('#flash').contains("Your username is invalid!")
   })
 
-  it.only ("invalid pasword can`t login",()=>{
+  it ("invalid pasword can`t login",()=>{
 
     cy.get('#username').type("tomsmith")
     cy.get('#password').type("000")
