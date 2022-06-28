@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-export class HomePage {
+export class homePage {
 
     gotohomepage(){
         cy.visit("https://the-internet.herokuapp.com/")

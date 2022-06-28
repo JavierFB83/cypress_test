@@ -32,7 +32,8 @@ export class todoHOMEPage {
     Labelnumber(text) {
     cy.get('label').should('have.length', text)
     }
-    Markcompleted3() {
-    cy.get(':nth-child(3) > .view > .toggle').click()
+    Markcompleted() {
+    cy.get(':nth-child (3) > .view > .toggle').click()
     }
 }
+
